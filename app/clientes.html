@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+</head>
+<body>
+    <h1>Inserir Novo Cliente</h1>
+    <form id="formCliente">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf"><br><br>
+        
+        <label for="conta">Conta:</label>
+        <input type="text" id="conta" name="conta"><br><br>
+        
+        <button type="submit">Inserir Cliente</button>
+    </form>
+
+    <h2>Lista de Clientes</h2>
+    <div id="listaClientes"></div>
+    
+    <script src="js/model/clientes.js"></script>
+    <script src="js/model/cliente.js"></script>
+    <script src="js/controller/cliente-controller.js"></script>
+    <script src="js/app-cliente.js"></script>
+</body>
+</html>
